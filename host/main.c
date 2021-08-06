@@ -118,7 +118,7 @@ int main(void)
 	pthread_create(&thread_id, NULL, &call_ta, 0);  //创建线程
 	pthread_detach(thread_id); // 线程分离，结束时自动回收资源
 	printf("sleep 3\n");
-	sleep(3000);
+	sleep(3);
 	printf("exited\n");
 	return 0;
 }
